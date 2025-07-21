@@ -5,6 +5,7 @@ set -e
 # Use this script to reclaim space on your Mac by removing local iMessage storage. Two prereqs:
 # 1. Ensure you sign out of iMessage before running this script.
 # 2. Ensure your terminal app has full disk access.
+# As always, make executable by running: chmod +x clean_imessage_storage.sh
 
 # By default, do not create a backup of your iMessage data.
 # Archiving, going about your life, and then unarchiving will turn your data into a reconciliation nightmare.
